@@ -1,0 +1,31 @@
+{
+  "name": "百度搜索广告终结者",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "百度搜索广告终结者，还我干净的搜索结果",
+  "browser_action": {
+    "default_icon": "icons/icon_19.png",
+    "name": "kill Baidu's AD!"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.baidu.com/*"
+      ],
+      "js": [
+        "jquery.js", "killer.js"
+      ]
+    }
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": [
+    "activeTab",
+    "https://*.baidu.com/*"
+  ],
+  "icons": {
+    "128": "icons/icon_128.png",
+    "16": "icons/icon_16.png",
+    "48": "icons/icon_48.png",
+    "19": "icons/icon_19.png"
+  }
+}
