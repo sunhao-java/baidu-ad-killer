@@ -20,6 +20,9 @@
 ## 获取源码
 `git clone https://git.oschina.net/chrome-plugins/baidu-ad-killer.git`
 
+## 下载插件
+`/dist/baidu-ad-killer.crx`
+
 ## 联系我
 1. Email: sunhao.java@gmail.com
 2. QQ: 867885140
