@@ -1,0 +1,1 @@
+#baidu-ad-killer
